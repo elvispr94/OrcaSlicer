@@ -422,7 +422,7 @@ public:
 				}
 			}	
 
-            auto calculate_speed = [&speed_sections, &original_speed](float distance) {
+             auto calculate_speed = [&speed_sections, &original_speed](float distance) {
                 float final_speed;
                 if (distance <= speed_sections.front().first) {
                     final_speed = original_speed;
